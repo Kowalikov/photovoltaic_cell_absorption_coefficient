@@ -14,6 +14,17 @@ Praca inżynierska, kroki:
 * ...
 
 
+## Structure:
+
+```
+materials/              # materials paramets
+src/
+    simulations/        # simulations source code for different materials
+        IIIA_VA.py      # methods for III-V semiconductors compounds
+
+```
+
+
 
 ## Environment:
 
@@ -23,6 +34,15 @@ conda activate --name <conda_env>
 conda install jupyter
 pip install ipykernel
 pip install mendeleev
-
-
+pip install matplotlib
+pip install seaborn
 ```
+
+
+## References:
+
+All of parameters in `materials` folder are linked in files  `' #<reference_link>'` at the end of each line.
+
+
+To add:
+`src/simulators/IIIA_VA/band_gap_from_mole_fraction/` for 'IIIA_2_VA_1` and 'VCA' method
