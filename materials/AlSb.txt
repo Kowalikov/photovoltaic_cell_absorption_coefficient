@@ -1,0 +1,1 @@
+Eg_300K=1.58 #https://en.wikipedia.org/wiki/Aluminium_antimonide

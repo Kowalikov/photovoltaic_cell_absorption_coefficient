@@ -1,0 +1,2 @@
+Eg_0K=0.81 #http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/Semgap.html
+Eg_300K=0.68 #http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/Semgap.html
