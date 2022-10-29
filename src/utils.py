@@ -1,3 +1,24 @@
+import re
+from mendeleev import element
+from collections import Counter
+
+def material_type_checker(material):
+    component_names = re.findall('[A-Z][^A-Z]*', material) 
+    
+    components = [element(c_name) for c_name in component_names]
+
+    group_counter = Counter([c.group.symbol for c in components])
+    
+    material_type_extensive = [f'{group}_{numbers}' for group, numbers in zip(group_counter.keys(), group_counter.values())]
+    material_type_extensive = "_".join(material_type_extensive)
+
+    material_type = list(group_counter.keys())
+    material_type = "_".join(material_type)
+    
+    return material_type, material_type_extensive
+
+
+
 def roman_to_int(s):
       """
       :type s: str
