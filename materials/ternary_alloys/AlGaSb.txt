@@ -1,1 +1,3 @@
-C_Eg_gamma=-0.044+1.22x # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+C_Eg_gamma=-0.044,+1.22 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+C_Eg_x=0 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+C_Eg_l=0 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
