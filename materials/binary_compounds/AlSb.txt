@@ -1,1 +1,9 @@
-Eg_300K=1.58 #https://en.wikipedia.org/wiki/Aluminium_antimonide
+Eg_gamma_0K=2.386 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+alpha_gamma=0.00042 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+beta_gamma=140 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+Eg_x_0K=1.696 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+alpha_x=0.00039 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+beta_x=140 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+Eg_l_0K=2.329 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+alpha_l=0.00058 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+beta_l=140 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)

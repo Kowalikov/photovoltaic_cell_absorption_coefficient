@@ -1,2 +1,9 @@
-Eg_0K=0.81 #http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/Semgap.html
-Eg_300K=0.68 #http://hyperphysics.phy-astr.gsu.edu/hbase/Tables/Semgap.html
+Eg_gamma_0K=0.812 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+alpha_gamma=0.000417 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+beta_gamma=140 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+Eg_x_0K=1.141 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+alpha_x=0.000475 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+beta_x=94 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+Eg_l_0K=0.875 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+alpha_l=0.000597 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
+beta_l=140 # Band parameters for III–V compound semiconductors and their alloys, I. Vurgaftman, J. R. Meyer, L. R. Ram-Mohan (2001)
