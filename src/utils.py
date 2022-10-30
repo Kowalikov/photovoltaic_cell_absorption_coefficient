@@ -1,22 +1,29 @@
-import re
-from mendeleev import element
-from collections import Counter
+import os
 
-def material_type_checker(material):
-    component_names = re.findall('[A-Z][^A-Z]*', material) 
-    
-    components = [element(c_name) for c_name in component_names]
 
-    group_counter = Counter([c.group.symbol for c in components])
-    
-    material_type_extensive = [f'{group}_{numbers}' for group, numbers in zip(group_counter.keys(), group_counter.values())]
-    material_type_extensive = "_".join(material_type_extensive)
+def param_reader(components, params_file_path, param):
+    """Reads parameter from files for given list of components. There need to be path provided (same for all components). Only parameter specified by the "param" will be read.
 
-    material_type = list(group_counter.keys())
-    material_type = "_".join(material_type)
-    
-    return material_type, material_type_extensive
+    Args:
+        components (List[str]): List of the components names
+        params_file_path (str): path to parameter files
+        param (str): name of the parameter in the parameters files
 
+    Returns:
+        list: List of the parameter for each componenets
+    """
+    read_params = []
+    for c in components:
+        with open(os.path.join(params_file_path, c+".txt")) as f:
+            lines = f.readlines()
+            for line in lines:
+                if line.split("=")[0]==param:
+                    read_param_str = line.split("=")[1].split(" ")[0]
+                    
+                    read_param_float = float(read_param_str)
+                    read_params.append(read_param_float)
+
+    return read_params
 
 
 def roman_to_int(s):
