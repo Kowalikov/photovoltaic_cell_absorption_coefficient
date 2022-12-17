@@ -21,8 +21,11 @@ def read_binary_compounds_param(components, params_file_path, param):
                 if line.split("=")[0]==param:
                     read_param_str = line.split("=")[1].split(" ")[0]
                     #print(read_param_str)
-                    read_param_float = float(read_param_str)
-                    read_params.append(read_param_float)
+                    if "," in read_param_str:
+                        read_param = [float(p) for p in read_param_str.split(",")]
+                    else:
+                        read_param = float(read_param_str)
+                    read_params.append(read_param)
 
     return read_params
 
