@@ -46,3 +46,8 @@ All of parameters in `materials` folder are linked in files  `' #<reference_link
 
 To add:
 `src/simulators/IIIA_VA/band_gap_from_mole_fraction/` for 'IIIA_2_VA_1` and 'VCA' method
+
+
+Dobór materiałów:
+
+Ogniwo trójzłączowe ze złączami zbudowanymi z materiałów o przerwach energetycznych 1.8, 1.3 oraz 0.7 [eV].
