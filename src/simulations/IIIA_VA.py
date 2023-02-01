@@ -2,7 +2,7 @@ import numpy as np
 
 def band_gap_from_mole_fraction(band_gaps, material_type, method="VCA", calc_params=None, points=20):
 
-     if material_type=="IIIA_2_VA_1":
+     if material_type=="IIIA_2_VA_1" or material_type=="IIIA_1_VA_2":
           
           ## Reference: Properties of Semiconductor Alloys - Sadao Adachi.pdf
           if method=="VCA":
